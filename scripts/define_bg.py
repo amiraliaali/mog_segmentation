@@ -1,6 +1,4 @@
 import pygame
-import sys
-import cv2
 import numpy as np
 
 WHITE = (255, 255, 255)
@@ -54,7 +52,7 @@ def main_loop(screen, bounding_boxes, drawing, start_pos, current_label, image_s
 
                     x1, y1 = start_pos
                     x2, y2 = end_pos
-                    bbox = pygame.Rect(min(x1, x2), min(y1, y2), abs(x2 - x1), abs(y2 - y1))
+                    bbox = (min(x1, x2), min(y1, y2), abs(x2 - x1), abs(y2 - y1))
                     bounding_boxes.append((bbox, current_label))
             
             elif event.type == pygame.KEYDOWN:
