@@ -18,7 +18,7 @@ A window will open, prompting you to define regions for the foreground and backg
 
 An example is shown below:  
 
-![label](readme_images/procedure_2.png)  
+![label](readme_images/procedure_1.png)  
 
 Here, the green boxes represent the foreground, while the red boxes indicate the background.  
 
@@ -32,5 +32,5 @@ Once you’ve finished labeling, simply close the window and let the algorithm r
 
 Below are examples of an input image and the corresponding segmented output:  
 
-![label](input_images/image_2.jpg)  
-![label](output_images/image_2/segmented_post_processed_mask.png)  
+![label](input_images/image_1.jpg)  
+![label](output_images/image_1/segmented_post_processed_mask.png)  
