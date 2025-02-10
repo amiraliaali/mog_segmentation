@@ -15,7 +15,7 @@
         {
             "name": "Main",
             "type": "debugpy",
-            "args": ["/Users/amiraliaali/Documents/Coding/computer_vision/mog_segmentation/images/image_1.jpg"],
+            "args": ["/Users/amiraliaali/Documents/Coding/computer_vision/mog_segmentation/input_images/image_3.jpg"],
             "request": "launch",
             "program": "${workspaceFolder}/scripts/main.py",
             "console": "integratedTerminal"

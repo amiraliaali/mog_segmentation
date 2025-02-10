@@ -2,7 +2,7 @@ import numpy as np
 from scipy.stats import multivariate_normal
 
 class MoG:
-    def __init__(self, table_of_data, num_components=2, tol=1e-4, max_iter=100):
+    def __init__(self, table_of_data, num_components=2, tol=1e-4, max_iter=200):
         self.table_of_data = table_of_data
         self.num_components = num_components
         self.tol = tol

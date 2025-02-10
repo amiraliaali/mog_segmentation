@@ -15,7 +15,7 @@ def run_box_drawer(image):
     image_rect = image_surface.get_rect()
 
     screen = pygame.display.set_mode((image_rect.width, image_rect.height))
-    pygame.display.set_caption("Interactive Bounding Box Selector")
+    pygame.display.set_caption("Foreground Background")
 
     bounding_boxes = []
     drawing = False
