@@ -1,5 +1,13 @@
 # Foreground/Background Separation Using Mixture of Gaussians (MoG)
 
+## Test Output GIFs
+Here are the results of our work:
+
+<div style="display: flex; gap: 10px;">
+  <img src="https://github.com/amiraliaali/mog_segmentation/blob/main/readme_images/movie_2.gif" width="500" height="282" />
+  <img src="https://github.com/amiraliaali/mog_segmentation/blob/main/readme_images/segmented_output_2.gif" width="500" height="282" />
+</div>
+
 ## Motivation  
 As part of the *Machine Learning* lecture at RWTH Aachen University, we were introduced to the Mixture of Gaussians (MoG) algorithm.  
 
