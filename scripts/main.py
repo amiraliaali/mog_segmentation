@@ -55,7 +55,7 @@ def process_video(video_path, mog, output_path="segmented_output.mov"):
         binary_mask = (mask * 255).astype(np.uint8)
         # post_processed_mask = post_processing(binary_mask)
         segmented_frame = frame.copy()
-        segmented_frame[binary_mask == 0] = [0, 0, 0]
+        segmented_frame[binary_mask != 0] = [0, 0, 0]
 
         out.write(cv2.cvtColor(segmented_frame, cv2.COLOR_RGB2BGR))
 
